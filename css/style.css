@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+}
+
+.caption
+{
+    bottom: 0;
+    margin: auto;
+}
+.caption>div
+{
+    text-align: center;
+    width: 60%;
+    transition: 1.5s transform;
+    border-radius: 5px;
+}
+.caption>div:hover
+{
+    transform:scale(1.1);
+    transform: rotate(360deg);
+}
+.layer
+{
+    z-index: 55;
+    background-color: rgba(0, 0, 0, 0.789);
+}
+
+.lightboxmodel
+{
+    width: 400px;
+    height: 400px;
+    background-image: url("../shuffle-02.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.lightboxmodel i 
+{
+    color: black;
+}
+.lightboxmodel i:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+
+.item
+{
+    cursor: pointer;
+}
